@@ -1,0 +1,17 @@
+### Retorna todos os itens que foram vendidos sem desconto
+GET http://localhost:8080/itens/desconto-zero
+
+### Retorna todos os itens que foram vendidos com desconto
+GET http://localhost:8080/itens/com-desconto
+
+### Retorna todos os itens e ordene o resultado do maior valor para o menor
+GET http://localhost:8080/itens/ordenados
+
+### Retorna o produto que mais vendeu
+GET http://localhost:8080/itens/mais-vendido
+
+### Consulte as NF que foram vendidas mais de 10 unidades de pelo menos um produto
+GET http://localhost:8080/nfs/mais-dez
+
+### Pesquise o valor total das NF, onde esse valor seja maior que 500, e ordene o resultado do maior valor para o menor
+GET http://localhost:8080/nfs/valor-maior?valor=500.00
